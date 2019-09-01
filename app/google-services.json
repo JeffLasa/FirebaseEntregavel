@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "895799181555",
+    "firebase_url": "https://gameentregavel.firebaseio.com",
+    "project_id": "gameentregavel",
+    "storage_bucket": "gameentregavel.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:895799181555:android:921e118c03a2aef2",
+        "android_client_info": {
+          "package_name": "com.digitalhouse.firebaseentregavel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "895799181555-dar8akruch65nnj8egm227b7mipr8vkg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.digitalhouse.firebaseentregavel",
+            "certificate_hash": "751566c1806282aaef44439174bfe5baefcd52e7"
+          }
+        },
+        {
+          "client_id": "895799181555-sg89i54srf7tep6ttq9h90obudi8nmmp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0WbJrWVBtDe7M5uEamUZHIxJTWJcdzrE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "895799181555-sg89i54srf7tep6ttq9h90obudi8nmmp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
