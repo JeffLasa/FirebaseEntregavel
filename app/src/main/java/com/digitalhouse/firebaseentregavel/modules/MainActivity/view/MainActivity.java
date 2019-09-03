@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity implements GameListListener 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        FloatingActionButton fab = findViewById(R.id.button_cadastra_game_id);
+        FloatingActionButton fab = findViewById(R.id.detalhe_editar_button_id);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -80,6 +80,8 @@ public class MainActivity extends AppCompatActivity implements GameListListener 
             }
         });
 
+
+
         gameRecyclerView = findViewById(R.id.games_reycler_view_id);
         GamesAdapter gamesAdapter = new GamesAdapter (gameList,this);
         GridLayoutManager gridLayoutManager = new GridLayoutManager(this, 2);
@@ -88,14 +90,18 @@ public class MainActivity extends AppCompatActivity implements GameListListener 
 
 
         Game game1 = new Game();
-        game1.setNome("Pac-Man asjjahsdj asfafaffa");
+        game1.setNome("Pac-Man asjjahsdj asfafaffa asdasdasda asa asasda asfdhgfghf");
         game1.setDeck("Arcade game sucesso nos anos 80");
         game1.setAno("1982");
+        game1.setImage("https://www.giantbomb.com/api/image/scale_large/707238-bass_avenger.jpg");
+
+
 
         Game game2 = new Game();
         game2.setNome("River Ride");
         game2.setDeck("Arcade de Avioes de guerra. Um dos primeiros jogos e  grande sucesso nos anos 80");
         game2.setAno("1985");
+        game2.setImage("https://www.giantbomb.com/api/image/scale_large/707365-fritz_9_play_chess.jpg");
 
 
         gameList.add(game1);
@@ -150,6 +156,8 @@ public class MainActivity extends AppCompatActivity implements GameListListener 
 //
 //        });
     }
+
+
 
     private void pesquisarGames(String textoDigitado) {
 

@@ -51,7 +51,8 @@
                     android:id="@+id/cadastro_input_text_nome_id"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Nome" />
+                    android:hint="Nome"
+                    android:textSize="14sp" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
@@ -62,7 +63,8 @@
                     android:id="@+id/cadastro_ano_input_text_id"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Criado em" />
+                    android:hint="Criado em"
+                    android:textSize="14sp" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
@@ -73,8 +75,10 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/cadastro_deck_input_text_id"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:hint="Descrição" />
+                    android:layout_height="match_parent"
+                    android:gravity="start|top"
+                    android:hint="Descrição"
+                    android:textSize="14sp" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <Button
@@ -85,7 +89,7 @@
                 android:layout_marginTop="16dp"
                 android:layout_marginBottom="16dp"
                 android:background="@color/colorAccent"
-                android:text="Cadastrar"
+                android:text="Salvar"
                 android:textColor="@color/colorWhite" />
 
         </LinearLayout>

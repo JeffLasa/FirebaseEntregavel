@@ -21,6 +21,7 @@ public class GameRepository {
 
     public Observable<List<Game>> getGameList(){
         return Observable.create(new ObservableOnSubscribe<List<Game>>() {
+
             @Override
             public void subscribe(ObservableEmitter<List<Game>> emitter) throws Exception {
 

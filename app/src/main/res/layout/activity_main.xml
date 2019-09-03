@@ -8,7 +8,7 @@
     tools:context=".modules.MainActivity.view.MainActivity">
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/button_cadastra_game_id"
+        android:id="@+id/detalhe_editar_button_id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|right"

@@ -1,22 +1,26 @@
 package com.digitalhouse.firebaseentregavel.model;
 
-import com.google.gson.annotations.SerializedName;
-
 public class Game {
 
 
+    private int id;
 
-    @SerializedName("name")
+    //    @SerializedName("name")
     private String nome;
 
-    @SerializedName("deck")
+//    @SerializedName("deck")
     private String deck;
 
-    @SerializedName("ano")
+//    @SerializedName("ano")
     private String ano;
 
-    @SerializedName("image")
+//    @SerializedName("image")
     private String image;
+
+
+    public int getId() {  return id; }
+
+    public void setId(int id) {  this.id = id; }
 
     public String getNome() {
         return nome;

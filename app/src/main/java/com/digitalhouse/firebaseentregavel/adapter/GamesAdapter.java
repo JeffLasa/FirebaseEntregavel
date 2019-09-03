@@ -62,13 +62,13 @@ public class GamesAdapter extends RecyclerView.Adapter<GamesAdapter.ViewHolder> 
         private TextView nomeTextView;
         private TextView anoTextView;
         private ImageView imageView;
+        private TextView deckGameTextView;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             nomeTextView = itemView.findViewById(R.id.nome_text_view_id);
             anoTextView = itemView.findViewById(R.id.data_text_view_id);
             imageView = itemView.findViewById(R.id.imageView_id);
-
 
         }
 
@@ -78,7 +78,7 @@ public class GamesAdapter extends RecyclerView.Adapter<GamesAdapter.ViewHolder> 
 
             Picasso.get().load(game.getImage()).into(imageView);
 
-
         }
     }
 }
+

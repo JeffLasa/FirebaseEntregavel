@@ -1,6 +1,5 @@
 package com.digitalhouse.firebaseentregavel.service.api;
 
-import com.digitalhouse.firebaseentregavel.util.Constantes;
 import com.facebook.stetho.okhttp3.StethoInterceptor;
 
 import java.util.concurrent.TimeUnit;
@@ -13,6 +12,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class RetrofitService {
 
     private Retrofit retrofit;
+    public static final String BASE_URL = "https://www.giantbomb.com/api/games/";
 
 
     private Retrofit getRetrofit(){
@@ -24,7 +24,7 @@ public class RetrofitService {
             clientBuilder.addNetworkInterceptor(new StethoInterceptor());
 
             retrofit = new Retrofit.Builder()
-                    .baseUrl(Constantes.BASE_URL)
+                    .baseUrl(BASE_URL)
                     .addConverterFactory(GsonConverterFactory.create())
                     .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
                     .client(clientBuilder.build())
